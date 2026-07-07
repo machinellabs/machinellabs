@@ -2,6 +2,11 @@
 
 I build small tools, automation scripts, and web apps that solve practical problems.
 
+## Now building
+
+- A [security review mode for diff-review](https://github.com/machinellabs/diff-review/tree/security-review-mode) — a `--security` flag that checks diffs against an application-security ruleset (injection, secrets, authz, unsafe deserialization) and runs a local secrets scan before the model ever sees the code. Landing as `v0.4.0`.
+- Next up: a prompt-injection test harness for LLM agents.
+
 ## Projects
 
 ### [diff-review](https://github.com/machinellabs/diff-review)
@@ -24,9 +29,9 @@ A self-hosted chore scoreboard for two people.
 
 ## Current Focus
 
+- Security tooling — code review, secrets detection, testing LLM-based apps
 - Python and JavaScript tools
-- Developer workflows
-- Local automation
+- Developer workflows and local automation
 - Small full-stack apps
 - Practical uses of LLMs in day-to-day coding work
 
